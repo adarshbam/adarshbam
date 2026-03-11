@@ -74,5 +74,3 @@ Features:
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=adarshbam&theme=dark&layout=compact)
 
 ---
-
-![Profile Views](https://visitcount.itsvg.in/api?id=adarshbam&icon=0&color=0)
