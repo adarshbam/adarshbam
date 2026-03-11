@@ -1,76 +1,136 @@
 <h1 align="center">Hi 👋, I'm Adarsh Singh</h1>
-<h3 align="center">Full Stack Developer (MERN)</h3>
+<h3 align="center">Full Stack Developer (MERN) | Backend Focused</h3>
 
-I build scalable backend systems and full-stack applications using Node.js, Express, MongoDB, and React.  
-Currently focused on backend architecture, system design, and building real-world production projects.
+<p align="center">
+I build scalable backend systems, APIs, and full-stack applications.  
+Currently focused on system design, performance, and real-world problem solving.
+</p>
 
 ---
 
-# 💫 About Me
+# 🚀 About Me
 
-🔭 I’m currently working on  
-A Google Drive–like cloud storage platform with streaming uploads, subscriptions, and advanced file management.
+🔭 Currently building  
+**A Google Drive–like file storage platform with streaming uploads, subscriptions, and advanced file management**
 
-👯 I’m looking to collaborate on  
-Open-source backend or full-stack projects.
+🌱 Currently learning  
+**Docker, System Design, Distributed Systems**
 
-🤝 I’m looking for help with  
-Large-scale backend architecture and distributed systems.
-
-🌱 I’m currently learning  
-Docker, system design, and scalable backend infrastructure.
+👯 Looking to collaborate on  
+**Open Source Backend / Full Stack Projects**
 
 💬 Ask me about  
-Node.js, REST APIs, MongoDB, backend architecture, MERN stack.
+**Node.js, REST APIs, MongoDB, Backend Architecture, MERN Stack**
 
 ⚡ Fun fact  
-I enjoy building complex backend systems from scratch.
-
----
-
-# 🚀 Featured Project
-
-### Cloud Storage Platform
-
-A Google Drive-like system built with a strong focus on backend architecture.
-
-Features:
-
-• Streaming file uploads  
-• Resume / pause upload support  
-• Folder navigation like real file explorer  
-• Razorpay subscription system  
-• File previews and thumbnails  
-• Admin management dashboard  
+**I enjoy building complex backend systems from scratch**
 
 ---
 
 # 🌐 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/adarsh-singh-bam)
-[![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/adarshprocodrr)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:adarshbambahadur@gmail.com)
+<p align="left">
+<a href="https://linkedin.com/in/adarsh-singh-bam" target="blank">
+<img align="center" src="https://skillicons.dev/icons?i=linkedin" height="40"/>
+</a>
+<a href="https://instagram.com/adarshbam" target="blank">
+<img align="center" src="https://skillicons.dev/icons?i=instagram" height="40"/>
+</a>
+<a href="mailto:adarshbambahadur@gmail.com">
+<img align="center" src="https://skillicons.dev/icons?i=gmail" height="40"/>
+</a>
+</p>
 
 ---
 
-# 💻 Tech Stack
+# 🛠 Tech Stack
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+### Languages
+<p>
+<img src="https://skillicons.dev/icons?i=js,html,css"/>
+</p>
+
+### Frontend
+<p>
+<img src="https://skillicons.dev/icons?i=react,tailwind"/>
+</p>
+
+### Backend
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express"/>
+</p>
+
+### Database
+<p>
+<img src="https://skillicons.dev/icons?i=mongodb"/>
+</p>
+
+### Tools
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,docker,vscode"/>
+</p>
+
+---
+
+# 📌 Featured Projects
+
+### ☁️ My Storage
+Google Drive–like cloud storage platform  
+Features:
+
+- Streaming file uploads
+- Folder navigation
+- Razorpay subscription integration
+- Advanced file management
+
+---
+
+### 🧠 CodeRacer
+Speed-focused coding challenge platform
+
+Features:
+
+- Real-time typing performance tracking
+- Timed coding challenges
+- Developer practice environment
+
+---
+
+### 🌍 Country API React
+Interactive React app that consumes public APIs  
+Shows country data dynamically with modern UI.
+
+---
+
+### ❓ Quiz App
+JavaScript based quiz platform focusing on:
+
+- Core JS logic
+- Dynamic UI
+- Interactive gameplay
 
 ---
 
 # 📊 GitHub Stats
 
-![](https://github-readme-stats.vercel.app/api?username=adarshbam&theme=dark&hide_border=false)
-![](https://nirzak-streak-stats.vercel.app/?user=adarshbam&theme=dark&hide_border=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=adarshbam&theme=dark&layout=compact)
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=adarshbam&show_icons=true&theme=tokyonight"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=adarshbam&theme=tokyonight"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adarshbam&layout=compact&theme=tokyonight"/>
+
+</p>
 
 ---
+
+# 📈 Profile Views
+
+<p align="center">
+<img src="https://visitcount.itsvg.in/api?id=adarshbam&label=Profile%20Views&color=0&icon=5&pretty=true" />
+</p>
+
+---
+
+⭐️ From [Adarsh Singh](https://github.com/adarshbam)
