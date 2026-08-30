@@ -22,7 +22,7 @@ I am a **Software Engineer** specializing in **high-performance backend architec
 
 ---
 
-### 🏆 Featured Flagship Projects
+### 🏆 Featured Systems & Architecture
 
 <table>
   <tr>
@@ -35,33 +35,32 @@ I am a **Software Engineer** specializing in **high-performance backend architec
         <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black"/>
         <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
       </p>
-      <p><b>Enterprise-grade cloud drive & workspace system</b> engineered for high-concurrency file transfers and zero-memory-leak streaming.</p>
+      <p><b>Enterprise-grade cloud drive & workspace platform</b> engineered for high-concurrency file transfers and zero-memory-leak streaming.</p>
       <ul>
         <li><b>Streaming Architecture:</b> Multipart chunk uploads directly to AWS S3 using Node.js Transform streams & presigned URLs.</li>
-        <li><b>Media Processing:</b> Background asynchronous thumbnail and video preview transcoding via Sharp & FFmpeg.</li>
-        <li><b>Enterprise Security:</b> Redis-backed rate limiting, Argon2 hashing, TOTP Two-Factor Auth (2FA), and Razorpay recurring subscriptions.</li>
+        <li><b>Media Pipeline:</b> Asynchronous thumbnail and video preview transcoding via Sharp & FFmpeg worker threads.</li>
+        <li><b>Enterprise Security:</b> Redis-backed rate limiting, Argon2 hashing, TOTP 2FA, and Razorpay subscription billing.</li>
       </ul>
       <p align="center">
-        <a href="https://github.com/adarshbam/my-storage"><b>Source Code</b></a> •
-        <a href="https://github.com/adarshbam/my-storage-frontend"><b>Frontend Repo</b></a> •
-        <a href="https://github.com/adarshbam/my-storage-backend"><b>Backend Repo</b></a>
+        <a href="https://github.com/adarshbam/my-storage"><b>Monorepo</b></a> •
+        <a href="https://github.com/adarshbam/my-storage-frontend"><b>Frontend</b></a> •
+        <a href="https://github.com/adarshbam/my-storage-backend"><b>Backend</b></a>
       </p>
     </td>
     <td width="50%">
-      <h3 align="center">🌐 Custom HTTP Server from Scratch</h3>
+      <h3 align="center">🔐 JWT Security & Vulnerability Lab</h3>
       <p align="center">
+        <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Cryptography-0052CC?style=flat-square"/>
         <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
-        <img src="https://img.shields.io/badge/TCP_Sockets-00599C?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Zero_Dependencies-FF6F00?style=flat-square"/>
       </p>
-      <p><b>Low-level HTTP/1.1 server implementation</b> built directly on raw TCP sockets without Express or third-party web frameworks.</p>
+      <p><b>Security research lab & test suite</b> demonstrating real-world token vulnerabilities, replay exploits, and cryptographic mitigations.</p>
       <ul>
-        <li><b>Protocol Parser:</b> Custom state machine for parsing HTTP request lines, headers, and binary bodies from raw stream buffers.</li>
-        <li><b>Concurrent Connections:</b> Handles multiplexed TCP client sockets with Keep-Alive support and non-blocking I/O.</li>
-        <li><b>GZIP Compression:</b> Dynamic content negotiation supporting gzip chunked transfer encodings.</li>
+        <li><b>Exploit Vectors:</b> Simulates algorithm confusion (RS256 vs HS256), signature stripping, and token replay attacks.</li>
+        <li><b>Defensive Architecture:</b> Implements secure HTTP-only cookies, token rotation, and distributed revocation via Redis.</li>
       </ul>
       <p align="center">
-        <a href="https://github.com/adarshbam"><b>Explore Architecture</b></a>
+        <a href="https://github.com/adarshbam/exployting-jwt-tokens"><b>Explore Security Lab</b></a>
       </p>
     </td>
   </tr>
@@ -74,48 +73,42 @@ I am a **Software Engineer** specializing in **high-performance backend architec
         <img src="https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
         <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
       </p>
-      <p><b>Real-time competitive typing platform for software developers</b> with syntax-aware coding challenges.</p>
+      <p><b>Real-time developer typing benchmark platform</b> with syntax-aware coding challenges.</p>
       <ul>
-        <li><b>Event-Loop Timing:</b> Millisecond-accurate WPM, accuracy, and error-penalty calculations using high-precision timers.</li>
-        <li><b>Modern UI/UX:</b> Built with React 19 compiler paradigms and Tailwind CSS v4 for zero-jank frame rendering.</li>
+        <li><b>Event-Loop Timing:</b> Millisecond-accurate WPM, accuracy, and penalty calculations using high-precision timers.</li>
+        <li><b>Zero-Jank Rendering:</b> Built with React 19 and Tailwind CSS v4 for smooth 60+ FPS interaction.</li>
       </ul>
       <p align="center">
         <a href="https://github.com/adarshbam/coderacer"><b>View Repository</b></a>
       </p>
     </td>
     <td width="50%">
-      <h3 align="center">📚 Scalable LMS & Video Streaming Platform</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Express_5-000000?style=flat-square&logo=express&logoColor=white"/>
-        <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Argon2-0052CC?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Node_Cron-FF9900?style=flat-square"/>
-      </p>
-      <p><b>Learning Management System</b> with robust role-based access control and scheduled automated workflows.</p>
-      <ul>
-        <li><b>Access Control (RBAC):</b> Granular permissions for students, instructors, and platform administrators.</li>
-        <li><b>Automated Lifecycle:</b> Node-Cron workers for membership expiry, audit logs, and course progress tracking.</li>
-      </ul>
-      <p align="center">
-        <a href="https://github.com/adarshbam/lms-app"><b>View Repository</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <h3 align="center">🤖 FakeGPT (AI Token Streaming Assistant)</h3>
+      <h3 align="center">🤖 FakeGPT (AI Token Streaming)</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
         <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white"/>
         <img src="https://img.shields.io/badge/SSE_Streaming-00C7B7?style=flat-square"/>
       </p>
-      <p align="center"><b>Conversational AI interface with real-time token streaming via Server-Sent Events (SSE).</b> Implements resilient error boundaries, context memory management, and stream abort handling.</p>
+      <p><b>Lightweight Node.js AI streaming engine</b> with zero external framework overhead.</p>
+      <ul>
+        <li><b>Stream Piping:</b> Server-Sent Events (SSE) token streaming via raw Node.js HTTP server.</li>
+        <li><b>Stream Handling:</b> Asynchronous chunk iterators, abort signal handling, and context buffering.</li>
+      </ul>
       <p align="center">
         <a href="https://github.com/adarshbam/fakegpt"><b>View Repository</b></a>
       </p>
     </td>
   </tr>
 </table>
+
+---
+
+### 🎨 Creative Lab & Interactive Highlights
+
+> *"When I'm not profiling stream buffers or architecting distributed backends, I enjoy using code for creative storytelling—building interactive web animations and audio-synchronized timeline journeys for the people I love."*
+
+- 💖 **[Valentine's Day Journey](https://github.com/adarshbam/valentine-day)** — Interactive storytelling experience featuring glowing path animations, glassmorphism UI, and audio synchronization.
+- ✨ **[Our Love Story](https://github.com/adarshbam/our-love-story)** — Interactive memory timeline built with smooth CSS keyframes and DOM animations.
 
 ---
 
@@ -191,6 +184,6 @@ I am a **Software Engineer** specializing in **high-performance backend architec
 ---
 
 <div align="center">
-  <p>💼 <b>Open to Full-Time Software Engineering & Backend Roles</b></p>
+  <p>💼 <b>Open to Full-Time Software Engineering & Backend Systems Roles</b></p>
   <p>📫 Reach me at: <a href="mailto:adarshbambahadur@gmail.com">adarshbambahadur@gmail.com</a> • <a href="https://linkedin.com/in/adarsh-singh-bam">LinkedIn</a></p>
 </div>
