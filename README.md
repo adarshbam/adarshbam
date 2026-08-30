@@ -30,6 +30,7 @@ I am a **Software Engineer** specializing in **high-performance backend architec
     <td width="50%">
       <h3 align="center">🛡️ Vault (Cloud Storage & Workspace Platform)</h3>
       <p align="center">
+        <a href="https://yourvaultstorage.com"><img src="https://img.shields.io/badge/Live_Production-https%3A%2F%2Fyourvaultstorage.com-00C7B7?style=flat-square&logo=googlechrome&logoColor=white"/></a>
         <img src="https://img.shields.io/badge/Express_5-000000?style=flat-square&logo=express&logoColor=white"/>
         <img src="https://img.shields.io/badge/AWS_S3-569A31?style=flat-square&logo=amazons3&logoColor=white"/>
         <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
@@ -45,6 +46,7 @@ I am a **Software Engineer** specializing in **high-performance backend architec
         <li><b>Media Processing:</b> Background libuv worker threads for Sharp WebP thumbnails and FFmpeg video transcoding.</li>
       </ul>
       <p align="center">
+        <a href="https://yourvaultstorage.com"><b>🌐 Live App</b></a> •
         <a href="https://github.com/adarshbam/my-storage"><b>Monorepo</b></a> •
         <a href="https://github.com/adarshbam/my-storage-frontend"><b>Frontend</b></a> •
         <a href="https://github.com/adarshbam/my-storage-backend"><b>Backend</b></a>
@@ -110,8 +112,8 @@ I am a **Software Engineer** specializing in **high-performance backend architec
 
 > *"I built two interactive web projects to impress my girlfriend—and it worked! She was blushing, giggling, and amazed all throughout the day."*
 
-- 💖 **[Valentine's Day Journey](https://github.com/adarshbam/valentine-day)** — Interactive storytelling experience featuring glowing path animations, glassmorphism UI, and audio synchronization.
-- ✨ **[Our Love Story](https://github.com/adarshbam/our-love-story)** — Personal interactive memory timeline built with smooth CSS keyframes and DOM animations.
+- 💖 **[Valentine's Day Journey](https://github.com/adarshbam/valentine-day)** ([🌐 Live Experience](https://valentinesdaypresentformybubu.netlify.app/)) — Interactive storytelling experience featuring glowing path animations, glassmorphism UI, and audio synchronization.
+- ✨ **[Our Love Story](https://github.com/adarshbam/our-love-story)** ([🌐 Live Experience](https://our-sweet-love-story.netlify.app/)) — Personal interactive memory timeline built with smooth CSS keyframes and DOM animations.
 
 ---
 
