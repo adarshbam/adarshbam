@@ -1,5 +1,5 @@
 ﻿<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,20,50,100&height=220&section=header&text=Adarsh%20Singh&fontSize=70&fontAlignY=35&desc=Backend%20%26%20Distributed%20Systems%20Engineer%20|%20Full%20Stack%20Developer&descFontSize=20&descAlignY=62&fontColor=ffffff" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,20,50,100&height=200&section=header&text=Adarsh%20Singh&fontSize=65&fontAlignY=38&desc=Backend%20and%20Distributed%20Systems%20Engineer%20%7C%20Full%20Stack%20Developer&descFontSize=20&descAlignY=65&fontColor=ffffff" width="100%"/>
 </div>
 
 <div align="center">
@@ -103,12 +103,12 @@ I am a **Software Engineer** specializing in **high-performance backend architec
 
 ---
 
-### 🎨 Creative Lab & Interactive Highlights
+### 💡 An Interesting Fact About Me
 
-> *"When I'm not profiling stream buffers or architecting distributed backends, I enjoy using code for creative storytelling—building interactive web animations and audio-synchronized timeline journeys for the people I love."*
+> *"I built two interactive web projects to impress my girlfriend—and it worked! She was blushing, giggling, and amazed all throughout the day."*
 
 - 💖 **[Valentine's Day Journey](https://github.com/adarshbam/valentine-day)** — Interactive storytelling experience featuring glowing path animations, glassmorphism UI, and audio synchronization.
-- ✨ **[Our Love Story](https://github.com/adarshbam/our-love-story)** — Interactive memory timeline built with smooth CSS keyframes and DOM animations.
+- ✨ **[Our Love Story](https://github.com/adarshbam/our-love-story)** — Personal interactive memory timeline built with smooth CSS keyframes and DOM animations.
 
 ---
 
