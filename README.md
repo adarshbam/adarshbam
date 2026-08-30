@@ -16,9 +16,10 @@
 
 I am a **Software Engineer** specializing in **high-performance backend architectures, stream-based data pipelines, and scalable full-stack applications**. 
 
-- ⚡ **Core Strengths:** Designing memory-efficient streaming systems (Node.js Streams, S3 Multipart Uploads), Redis caching & token-bucket rate limiting, low-level networking, and robust RESTful microservices.
-- 🛡️ **Security-First Approach:** Implemented TOTP 2FA, Argon2 cryptographic hashing, strict input validation with Zod, and token lifecycle security.
-- 🎯 **Engineering Philosophy:** Clean code, observable architectures, deep understanding of computer science fundamentals (data representation, networking, concurrency), and measurable real-world performance.
+- ⚡ **Distributed Storage & Streaming:** Architected decoupled Direct-to-S3 multipart streaming engines with presigned URLs, eliminating server-side memory bottlenecks on multi-gigabyte transfers.
+- 🚦 **Traffic Throttling & Rate Limiting:** Implemented Redis-backed token-bucket algorithms, per-user and per-IP request throttling, and decoupled rate limiters for authentication and OTP generation.
+- 🛡️ **Granular RBAC & Multi-Tenant Security:** Engineered hierarchical access control (Owner, Editor, Viewer), cryptographically signed share tokens, Argon2id hashing, and RFC 6238 TOTP 2FA.
+- 💳 **Business Logic & Monetization:** Developed dynamic storage quota middleware (`loadPlanContext`), webhook-driven Razorpay subscriptions with replay-attack defenses, and automated soft-delete retention lifecycles.
 
 ---
 
@@ -27,7 +28,7 @@ I am a **Software Engineer** specializing in **high-performance backend architec
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">🛡️ Vault (Cloud Storage Platform)</h3>
+      <h3 align="center">🛡️ Vault (Cloud Storage & Workspace Platform)</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Express_5-000000?style=flat-square&logo=express&logoColor=white"/>
         <img src="https://img.shields.io/badge/AWS_S3-569A31?style=flat-square&logo=amazons3&logoColor=white"/>
@@ -35,11 +36,13 @@ I am a **Software Engineer** specializing in **high-performance backend architec
         <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black"/>
         <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
       </p>
-      <p><b>Enterprise-grade cloud drive & workspace platform</b> engineered for high-concurrency file transfers and zero-memory-leak streaming.</p>
+      <p><b>Enterprise-grade cloud drive & developer workspace</b> engineered for high-concurrency file transfers, zero-memory-leak streaming, and robust multi-tenant permissions.</p>
       <ul>
-        <li><b>Streaming Architecture:</b> Multipart chunk uploads directly to AWS S3 using Node.js Transform streams & presigned URLs.</li>
-        <li><b>Media Pipeline:</b> Asynchronous thumbnail and video preview transcoding via Sharp & FFmpeg worker threads.</li>
-        <li><b>Enterprise Security:</b> Redis-backed rate limiting, Argon2 hashing, TOTP 2FA, and Razorpay subscription billing.</li>
+        <li><b>Direct-to-S3 Multipart Uploads:</b> Direct chunk transfers via presigned URLs and transform streams with zero RAM overhead.</li>
+        <li><b>Throttling & Abuse Prevention:</b> Distributed Redis rate limiters enforcing strict sliding-window policies per IP/User tier.</li>
+        <li><b>RBAC & Owner Permissions:</b> Granular Owner/Editor/Viewer permission policies with ancestor-path array authorization.</li>
+        <li><b>Pricing & Dynamic Quotas:</b> Middleware-driven subscription tiers (Free, Pro, Enterprise) integrated with Razorpay webhooks.</li>
+        <li><b>Media Processing:</b> Background libuv worker threads for Sharp WebP thumbnails and FFmpeg video transcoding.</li>
       </ul>
       <p align="center">
         <a href="https://github.com/adarshbam/my-storage"><b>Monorepo</b></a> •
@@ -172,13 +175,13 @@ I am a **Software Engineer** specializing in **high-performance backend architec
 ### 📊 GitHub Activity & Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=adarshbam&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adarshbam&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" height="165"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=adarshbam&theme=tokyonight" height="175"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=adarshbam&theme=tokyonight" height="175"/>
 </div>
 
 <div align="center">
   <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=adarshbam&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakNum=FFFFFF" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=adarshbam&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakNum=FFFFFF" alt="GitHub Streak" />
 </div>
 
 ---
