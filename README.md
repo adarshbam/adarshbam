@@ -17,30 +17,29 @@
 
 I am a **Full-Stack Distributed Systems & AI Infrastructure Engineer** with **8+ months of commercial production experience** building multi-repository enterprise platforms, zero-egress cloud storage engines, and autonomous LLM agentic pipelines.
 
-- 🏛️ **Commercial Production Engineering (Harigurus & ProCodrr):** Sole-architected a Next.js SSR e-commerce storefront (`harigurus-shop`), migrated a 20,170-LOC production React platform (`harigurus.com`) to **Sanity.io Headless CMS** via GROQ queries, and built Next.js App Router + strict **TypeScript** EdTech video streaming interfaces (`ProCodrr`) and WebXR 3D model viewers (`Cubes`).
+- 🏛️ **Commercial Production Engineering (Harigurus — 8 Months):** Sole-architected a Next.js SSR e-commerce storefront (`harigurus-shop` — 100% commit ownership), migrated a 20,170-LOC production React platform (`harigurus.com`) from static data to **Sanity.io Headless CMS** via GROQ queries, and contributed to the multi-stage SMS OTP checkout & Express/MongoDB production backend (`harigurusBackend`).
 - ⚡ **Distributed Zero-Egress Cloud Storage (`yourvaultstorage.com`):** Architected Direct-to-S3 multipart streaming engines on **AWS EC2 (Express 5 PM2 Cluster) + S3/CloudFront**, routing **Backblaze B2** streams through a **Cloudflare Worker Edge CDN** for **\$0 egress bandwidth**.
 - 🤖 **Autonomous Agentic Systems & MCP Servers:** Engineered an end-to-end customer support triage pipeline that clusters semantically identical feature requests, raises GitHub Issues at threshold $N_1$, dispatches **HMAC-SHA256 signed one-click webhook emails** at threshold $N_2$, and triggers a headless **Codex Agent** to implement code, run unit tests, and open verified Pull Requests.
 - 🛡️ **Granular RBAC, Security & Self-Hosted CI/CD:** Implemented Redis token-bucket rate limiters, Argon2id hashing, RFC 6238 TOTP 2FA, and a custom GitHub Webhook CI/CD build runner (`deploy-full.sh`) with mutex lock protection.
 
 ---
 
-### 🏛️ Commercial Production Work Experience (8+ Months Tenure)
+### 🏛️ Commercial Production Work Experience (8 Months Tenure)
 
-#### 🚀 [Harigurus & ProCodrr — Enterprise Production Ecosystem (22,160+ LOC)](https://github.com/adarshbam/harigurus-enterprise-architecture)
-[![Live Client Platform](https://img.shields.io/badge/Live_Client_Production-https%3A%2F%2Fharigurus.com-FF6B00?style=for-the-badge&logo=googlechrome&logoColor=white)](https://harigurus.com)
+#### 🚀 [Harigurus — Enterprise Ceremony Booking & E-Commerce Ecosystem (22,160+ LOC)](https://github.com/adarshbam/harigurus-enterprise-architecture)
+[![Live Client Platform](https://img.shields.io/badge/Live_Production-https%3A%2F%2Fharigurus.com-FF6B00?style=for-the-badge&logo=googlechrome&logoColor=white)](https://harigurus.com)
 [![Next.js SSR](https://img.shields.io/badge/Next.js_SSR-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![Sanity CMS](https://img.shields.io/badge/Sanity_Headless_CMS-F03E2F?style=for-the-badge&logo=sanity&logoColor=white)](https://www.sanity.io)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Node.js & Express](https://img.shields.io/badge/Node.js_%26_Express-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org)
 [![MongoDB](https://img.shields.io/badge/MongoDB_Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com)
 
-Worked directly under Founder **Anurag Singh (ProCodrr)** across a **3-repository client production ecosystem** (`harigurus`, `harigurus-shop`, `harigurusBackend`) and internal EdTech/3D web products:
+Engineered core systems across a **3-repository commercial production ecosystem** (`harigurus`, `harigurus-shop`, `harigurusBackend`):
 
-- **Sole-Architected E-Commerce Storefront (`harigurus-shop` — 100% Commit Ownership):** Built Harigurus's dedicated Server-Side Rendered (SSR) e-commerce storefront from scratch using **Next.js `getServerSideProps`, Sanity.io CMS, Material-UI v5, and TailwindCSS** with dynamic slug routing and `Intl` INR localization.
-- **Headless CMS Architecture Migration (`harigurus.com`):** Replaced 670+ lines of hardcoded ceremony definitions in the 20,170-LOC core platform with a dynamic **Sanity.io Headless CMS** studio and live **GROQ** queries, enabling non-technical staff to publish ceremony packages in real time with zero engineering redeployments.
-- **Multi-Stage OTP Checkout & Production DB Cutover (`harigurusBackend`):** Contributed to the 940-line checkout state machine and Express/MongoDB REST API featuring Indian mobile validation, **Fast2SMS & Twilio** 4-digit OTP verification, JWT session persistence, and PhonePe QR payments.
-- **ProCodrr TypeScript LMS & Cubes 3D WebXR:** Engineered Next.js App Router video streaming pages in strict TypeScript (flattening nested course trees into O(1) lookup maps + React Portal search modals) and built an interactive `.glb` 3D/AR viewer using Google `<model-viewer>`.
+- **Sole-Architected E-Commerce Storefront (`harigurus-shop` — 100% Commit Ownership):** Built Harigurus's dedicated Server-Side Rendered (SSR) e-commerce storefront from scratch across 63 files using **Next.js `getServerSideProps`, Sanity.io CMS, Material-UI v5, and TailwindCSS** with dynamic slug routing and `Intl` INR localization.
+- **Headless CMS Architecture Migration (`harigurus.com`):** Replaced 670+ lines of hardcoded ceremony definitions in the 20,170-LOC core platform with a dynamic **Sanity.io Headless CMS** studio (`services.js`, `serviceitem.js`) and live **GROQ** queries, enabling non-technical staff to publish ceremony packages in real time with zero engineering redeployments.
+- **Multi-Stage OTP Checkout & Production DB Cutover (`harigurusBackend`):** Contributed to the 940-line checkout state machine and Express/MongoDB REST API featuring Indian mobile validation, **Fast2SMS & Twilio** 4-digit OTP verification, JWT session persistence, and PhonePe QR payments; executed the production MongoDB database cutover.
 
-> 🔗 **Explore:** [**🌐 Live Client Site (harigurus.com)**](https://harigurus.com) • [**📐 Architecture Case Study & Technical Dossier**](https://github.com/adarshbam/harigurus-enterprise-architecture)
+> 🔗 **Explore:** [**🌐 Live Production Platform (harigurus.com)**](https://harigurus.com) • [**📐 Architecture Case Study & Technical Dossier**](https://github.com/adarshbam/harigurus-enterprise-architecture)
 
 ---
 
@@ -126,11 +125,11 @@ Worked directly under Founder **Anurag Singh (ProCodrr)** across a **3-repositor
 [![Backblaze B2](https://img.shields.io/badge/Backblaze_B2-E21E26?style=flat-square)](https://www.backblaze.com/cloud-storage)
 [![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)](https://nginx.org)
 
-#### 🎨 Frontend, 3D WebXR & Mobile Languages
+#### 🎨 Frontend & Mobile Languages
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript_(ESNext)-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
-[![Next.js](https://img.shields.io/badge/Next.js_SSR_%26_App_Router-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![Next.js](https://img.shields.io/badge/Next.js_SSR-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![Kotlin Android](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](https://kotlinlang.org)
 
