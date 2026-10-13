@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,20,50,100&height=200&section=header&text=Adarsh%20Singh&fontSize=65&fontAlignY=38&desc=Distributed%20Systems%20%26%20AI%20Infrastructure%20Engineer%20%7C%20Full%20Stack%20Developer&descFontSize=20&descAlignY=65&fontColor=ffffff" width="100%"/>
+  <img src="https://raw.githubusercontent.com/adarshbam/adarshbam/main/header.svg" width="100%" alt="Adarsh Singh - Distributed Systems &amp; AI Infrastructure Engineer | Full Stack Developer" />
 </div>
 
 <div align="center">
