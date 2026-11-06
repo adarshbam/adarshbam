@@ -31,15 +31,6 @@ Production source code belongs to Harigurus and remains private. The case-study 
 
 ## Selected projects
 
-### [Security Lab](https://github.com/adarshbam/security-lab)
-
-**Predict → experiment → inspect → compare.** A browser laboratory for understanding web security through real requests.
-
-- Three modules cover HttpOnly cookies versus localStorage, SameSite and CSRF, and JWT decoding, verification, and historical vulnerabilities.
-- A request inspector shows authentication outcomes and state changes; Playwright checks compare vulnerable and protected behavior.
-
-React · TypeScript · Express · Playwright. Intentionally vulnerable teaching routes run locally only.
-
 ### [Vault Storage](https://github.com/adarshbam/my-storage)
 
 A connected workspace for Vault files, GitHub repositories, and Google Drive.
@@ -57,6 +48,16 @@ A self-hosted workflow runner with signed GitHub webhooks and a React Flow dashb
 - Step retries, timeouts, process-tree cancellation, and workspace-scoped artifacts make execution behavior visible and controllable.
 
 TypeScript · Node.js · Express · React Flow. Jobs run as host processes in temporary directories; they are not container-sandboxed.
+
+### [Security Lab](https://github.com/adarshbam/security-lab)
+
+**Predict → experiment → inspect → compare.** A browser laboratory for understanding web security through real requests.
+
+- Three modules cover HttpOnly cookies versus localStorage, SameSite and CSRF, and JWT decoding, verification, and historical vulnerabilities.
+- A request inspector shows authentication outcomes and state changes; Playwright checks compare vulnerable and protected behavior.
+
+React · TypeScript · Express · Playwright. Intentionally vulnerable teaching routes run locally only.
+
 
 ## Tools I use
 
